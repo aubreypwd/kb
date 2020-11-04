@@ -37,3 +37,5 @@ This will act as if you searched the entire index for `mountain`. And you'll get
 ```
 
 Where `hits` will be filled with items.
+
+- [See https://www.elastic.co/guide/...y.html#_reserved_characters](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_reserved_characters)
