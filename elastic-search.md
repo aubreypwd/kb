@@ -1,5 +1,19 @@
 # Elastic Search
 
+## Creating an Index
+
+- [See https://www.elastic.co/guide/en/elasticsearch/.../indices-create-index.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-create-index.html)
+
+```
+PUT /my-index-000001
+```
+
+## Listing Indices
+
+```
+GET /_cat/indices
+```
+
 ## Example Index Query
 
 ```
