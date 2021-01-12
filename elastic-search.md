@@ -53,3 +53,18 @@ This will act as if you searched the entire index for `mountain`. And you'll get
 Where `hits` will be filled with items.
 
 - [See https://www.elastic.co/guide/...y.html#_reserved_characters](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_reserved_characters)
+
+## ElasticPress
+
+### Constants
+
+```
+EP_DASHBOARD_SYNC
+EP_IS_NETWORK
+EP_API_KEY
+EP_AUTOSUGGEST_ENDPOINT
+EP_SYNC_CHUNK_LIMIT
+EP_HOST
+EP_INDEX_PREFIX
+EP_CREDENTIALS
+```
