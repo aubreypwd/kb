@@ -14,6 +14,21 @@ PUT /my-index-000001
 GET /_cat/indices
 ```
 
+## Query by Post Type
+
+```
+GET /wds-raceraves-test-aubreypwd/_search
+{
+  "query": {
+    "match": {
+      "post_type": {
+        "query": "race"
+      }
+    }
+  }
+}
+```
+
 ## Example Index Query
 
 ```
